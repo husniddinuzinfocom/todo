@@ -12,6 +12,11 @@ export default function Lists({ todoList }) {
                     }) : "";
     return (
         <main>
+            <select className={classes.selectFilter}>
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
             <section className={classes.task_list}>
                 {todoItem}
             </section>
