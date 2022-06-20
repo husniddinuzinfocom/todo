@@ -1,13 +1,13 @@
 .new_task_form {
     display: flex;
+    background: var(--darker);
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .new_task_input {
-    flex: 1;
-    background: var(--darker);
-    padding: 1rem;
+    flex: 1;    
     border-radius: 1rem;
-    margin-right: 1rem;
     color: var(--light);
     font-size: 1.25rem;
 }
@@ -33,4 +33,11 @@
 
 .new_task_submit:active {
     opacity: .6;
+}
+
+.df {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
