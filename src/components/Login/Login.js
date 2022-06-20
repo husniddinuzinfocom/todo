@@ -146,7 +146,7 @@ export default function Login({ setToken }) {
                   value={fullName}
                   onChange={getVal1}
                   className={classes.inp}
-                  label="First name"
+                  label="Firstname"
                   variant="outlined"
                 />
               </FormControl>
@@ -155,7 +155,7 @@ export default function Login({ setToken }) {
                   value={lastname}
                   onChange={getVal2}
                   className={classes.inp}
-                  label="Last name"
+                  label="Lastname"
                   variant="outlined"
                 />
               </FormControl>
